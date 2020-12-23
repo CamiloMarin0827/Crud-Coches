@@ -1,0 +1,27 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    color: white;
+    padding: 30px;
+    background-image: url("./img/nav.png");
+    position: relative;
+}
+.font {
+    background-image: url("./img/descarga.png");
+}
+.mb-3 {
+    color: white;
+}
+.table {
+    color: #b8bbbe;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+    background-color: rgb(204, 98, 98);
+}

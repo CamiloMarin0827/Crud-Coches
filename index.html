@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="./img/icono.png">
+    <title>Car brands</title>
+</head>
+<body>
+        <div class="image">
+            <h1>CRUD IN CARDS</h1>
+        </div>
+    <div class="font">
+        <div class="container pt-5">
+            <form id="form" class="form mb-5" onsubmit="event.preventDefault(), addcards()" action="/users.php">
+                    <div class="mb-3">
+                        <label for="brand" class="form-label">Brand</label>
+                        <input type="text" class="form-control" id="brand" placeholder="Enter the brand"">
+                    </div>
+                    <div class="mb-3">
+                        <label for="model" class="form-label">Model</label>
+                        <input type="text" class="form-control" id="model" placeholder="Enter the model">
+                    </div>
+                    <div class="mb-3">
+                        <label for="color" class="form-label">color</label>
+                        <input type="text" class="form-control" id="color" placeholder="Enter color">
+                    </div>
+                    <div class="mb-3">
+                        <label for="year" class="form-label">Year</label>
+                        <input type="text" class="form-control" id="year" placeholder="Enter the year">
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price</label>
+                        <input type="text" class="form-control" id="price" placeholder="Enter the price">
+                    </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="table-container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>BRAND</th>
+                            <th>MODEL</th>
+                            <th>COLOR</th>
+                            <th>YEAR</th>
+                            <th>PRICE</th>
+                            <th>OPTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="container-cards">
+            
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+     <script src="cript.js"></script>
+</body>
+</html>
