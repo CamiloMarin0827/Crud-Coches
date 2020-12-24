@@ -13,6 +13,7 @@
 }
 .font {
     background-image: url("./img/descarga.png");
+    display: flex;
 }
 .mb-3 {
     color: white;
@@ -25,4 +26,6 @@
 .btn {
     background-color: rgb(204, 98, 98);
 }
-/* camilo */
+
+     
+    
